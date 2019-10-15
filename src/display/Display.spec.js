@@ -14,4 +14,5 @@ test('displays are "unlocked" and "open" by default', () => {
 
     getByText(/open/i);
     getByText(/unlocked/i);
+    
 });
